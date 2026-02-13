@@ -1,0 +1,6 @@
+@echo off
+echo Installing dependencies...
+py -m pip install -r requirements.txt
+echo Running inference...
+py inference.py
+pause

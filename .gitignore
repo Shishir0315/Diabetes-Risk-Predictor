@@ -1,0 +1,22 @@
+
+# Python and Virtual Environments
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+
+# Artifacts and Data (Large Files)
+# artifacts/
+# We keep artifacts folder structure but ignoring large binary files might be smart if they exceed 100MB.
+# However, for this project, let's keep model files if they are <100MB.
+# If artifacts > 100MB, consider git lfs.
+# For now, we will track them unless told otherwise.
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
