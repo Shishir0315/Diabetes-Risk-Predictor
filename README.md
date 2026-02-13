@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 # Diabetes Risk Prediction Model
 
@@ -32,3 +33,7 @@ This project predicts diabetes risk score based on lifestyle metrics using a Neu
 - `train_model.py`: Trains the Neural Network.
 - `inference.py`: Loads the model and predicts.
 - `run_inference.bat`: Helper script to run inference.
+=======
+# Diabetes-Risk-Predictor
+An end-to-end Deep Learning web app for predicting diabetes risk. Built with TensorFlow/Keras neural networks and deployed via Flask. Features a complete preprocessing pipeline and a modern, responsive UI for real-time health risk assessment based on lifestyle metrics like BMI and glucose.
+>>>>>>> d74067194d26de28d7bf8273b84c27ba16542704
